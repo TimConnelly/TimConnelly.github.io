@@ -24,11 +24,15 @@ Information on what linker scripts are and how to write them is easy to find. Th
 This scenario is most common in embedded systems. Not only will the target execution environment be different from the host, you may have variations of your target system (dev kit, prototype, production). 
 
 That's the basics of linker scripts. There's much more to the topic, which I plan to dig into with a future post. In the meantime, the references below are a good place to start.
+
 ## Tools
-1. `ld` - The linker for Gnu tools.
-1. `objdump` - Show information in object files.
-1. `nm` - List symbols in a file (Can also use `objdump -t`).
-1. `readelf` - Does what it the name says.
+`ld` - The linker for Gnu tools.
+
+`objdump` - Show information in object files.
+
+`nm` - List symbols in a file (Can also use `objdump -t`).
+
+`readelf` - Reads and outputs information from an ELF format binary.
 
 ## Reference
 [TI Presentation on linker scripts (pdf)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiM0J2Fp43vAhXqct8KHe9VDjs4ChAWMAB6BAgCEAM&url=https%3A%2F%2Fe2e.ti.com%2Fcfs-file%2F__key%2Fcommunityserver-discussions-components-files%2F81%2FA-Primer-on-Linker-Scripts-and-Command-Files.pdf&usg=AOvVaw30C7lcZEAf4QHXMii-cSde)
