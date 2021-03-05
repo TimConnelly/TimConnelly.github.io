@@ -13,11 +13,6 @@ In short, a linker script is a set of commands that describes to the linker, `ld
 
 I find the term "script" is somewhat misleading here. A linker script is really a set of configuration commands given to the linker program. It's configuration-as-code!
 
-- Organizes output of object files into the full executable.
-- assemble the compiled object files and libraries
-- indicate where it goes in memory
-
-
 ## Why 
 Information on what linker scripts are and how to write them is easy to find. The motivating need to write your own linker script is not so easy to answer. After quite a bit of reading, here's my answer: When you cross-compile code, the default linker behavior may not me appropriate for your target system. 
 
