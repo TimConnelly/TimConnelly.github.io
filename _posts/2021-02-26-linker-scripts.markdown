@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linker Scripts: What, Why and How"
-date:   2021-02-25 01:27:23 +0000 # FIXME
+date:   2021-03-05 09:42:00 +0000
 categories: programming embedded C C++
 ---
 A few weeks ago, I was asked if I write my own linker scripts. The answer "No, the default machinations of the linker have yet to fail me."
