@@ -6,7 +6,7 @@ categories: programming embedded C C++
 ---
 A few weeks ago, I was asked if I write my own linker scripts. The answer "No, the default machinations of the linker have yet to fail me."
 
-But curiosity took hold and I need to answer the questions for myself. What exactly is a linker script? Why would you write a linker script or leaving the defaults? How do you write a linker script? I hope this will be a more succint answer than reading the `ld` manual, though it will have final say.
+But curiosity took hold and I need to answer the questions for myself. What exactly is a linker script? Why would you write a linker script or leaving the defaults? How do you write a linker script? I hope this will be a more succinct answer than reading the `ld` manual, though it will have final say.
 
 ## What
 In short, a linker script is a set of commands that describes to the linker, `ld` for the Gnu toolchain, how to organize the compiled output of source files, libraries and data into an executable. There is a default script built into `ld` for when you do not provide your own. The `--verbose` option will print out the linker script. 
@@ -19,7 +19,7 @@ I find the term "script" is somewhat misleading here. A linker script is really 
 
 
 ## Why 
-Information on what linker scripts are and how to write them is easy to find. The motivating need to write your own linker script is not so easy to answer. After quite a bit of reading, here's my answer: When you cross-compile code, the default linker behavoir may not me appropriate for your target system. 
+Information on what linker scripts are and how to write them is easy to find. The motivating need to write your own linker script is not so easy to answer. After quite a bit of reading, here's my answer: When you cross-compile code, the default linker behavior may not me appropriate for your target system. 
 
 This scenario is most common in embedded systems. Not only will the target execution environment be different from the host, you may have variations of your target system (dev kit, prototype, production). 
 
