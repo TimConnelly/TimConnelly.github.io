@@ -1,3 +1,5 @@
+.vscode
+
 .vagrant
 internal
 
@@ -6,3 +8,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# VirtualBox log
+*VBox*.log
