@@ -37,21 +37,6 @@ Reporting on builds and tests is also important. Jenkins has an internal dashboa
 
 That wraps up basic CI for an embedded system. In future posts I will dig into each component in more detail. Up next is Jenkins and Docker.
 
-<br>
-- CI is a standard practice in web development, embedded world has been resistant. 
-    - Embedded development can benefit with the right setup.
-    - Especially true now with IoT infrastructure. Ultimately, we could set up a CI pipeline that tests the embedded device, the web backend and connectivity between them.
-    - Automated testing. Testing of embedded devices is not so straightforward as testing web applications. There's many options for hardware-independent and hardware-in-the-loop tests.
-
-### Tools
-- Jenkins for CI system. Docker for builds.
-    - Vagrant is also a nice option, but heavier as it uses full VMs.
-- Jenkins is highly configurable and adaptable. The downside of this is that it's more complicated to set up than hosted services such as CircleCI or GitHub Actions.
-    - Setup is a bit of a moving target, so I'll only overview the setup.
-- Docker gives us a consistent build environment, and a straightforward path to upgrading tools. 
-    - Jenkins, and all CI systems, have good integration with docker.
-
-## References
 [1]: https://www.jenkins.io/
 [2]: https://www.docker.com/products/docker-desktop
 [3]: https://www.segger.com/products/development-tools/embedded-studio/
